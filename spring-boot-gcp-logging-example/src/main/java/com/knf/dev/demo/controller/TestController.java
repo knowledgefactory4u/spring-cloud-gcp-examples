@@ -17,6 +17,6 @@ public class TestController {
         LOGGER.info("Info 1 - Inside test method");
         LOGGER.info("Info 2 - Inside test method");
 
-        return "Testing.....";
+        return "Testing...";
     }
 }
