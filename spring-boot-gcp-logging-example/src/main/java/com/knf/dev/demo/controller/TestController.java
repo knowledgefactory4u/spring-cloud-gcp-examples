@@ -14,7 +14,9 @@ public class TestController {
     @GetMapping("/test")
     public String test() {
 
-        LOGGER.info("Inside test method");
+        LOGGER.info("This is Info");
+        LOGGER.warn("This is Warning");
+        LOGGER.error("This is Error");
 
         return "Testing.....";
     }
