@@ -20,7 +20,7 @@ public class AccountController {
 
             LOG.info("Inside account service");
             String responseFromCartService = restTemplate.
-                   getForObject("http://localhost:9090/cart",
+                   getForObject("http://localhost:9080/cart",
                     String.class);
             LOG.info("Successfully communicated " +
                "with cart service");
