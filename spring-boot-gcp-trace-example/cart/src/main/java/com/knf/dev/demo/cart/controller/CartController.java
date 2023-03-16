@@ -12,8 +12,6 @@ public class CartController {
 
     private static final Logger LOG = LoggerFactory.
             getLogger(CartController.class);
-        @Autowired
-        RestTemplate restTemplate;
 
         @GetMapping(value = "/cart")
         public String cart() {
