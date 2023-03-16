@@ -34,8 +34,8 @@
 			<artifactId>spring-cloud-gcp-starter</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>io.micrometer</groupId>
-			<artifactId>micrometer-tracing-bridge-brave</artifactId>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-sleuth</artifactId>
 		</dependency>
 		<!-- Add Cloud Trace Starter -->
 		<dependency>
